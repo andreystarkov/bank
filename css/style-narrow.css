@@ -1,4 +1,6 @@
-
+	body {
+		padding-top: 50px;
+	}
     .responsive-grid { width: 660px !important; }
 
     .middle-wrapper { background-image: none !important; }
@@ -30,22 +32,37 @@
     .block-info .item .icon { display: block; margin-left: 80px; }
 
 
+
 	#leftPanelButton .toggle,
 	#rightPanelButton .toggle {
 		display: block;
-		background: rgba(71,86,91,0.9);
-		text-align: center;
-		width: 80px;
-		height: 60px;
-		line-height: 60px;
-		font-size: 1.25em;
-		color: #fff;
+		background: none;
+		height: 54px !important;
+		line-height: 44px;
 	}
 
 	#leftPanelButton .toggle {
-		border-radius: 0 0 0.5em 0;
+		text-align: left;
+		padding-left: 20px;
+				padding-top: 5px;
 	}
 
 	#rightPanelButton .toggle {
-		border-radius: 0 0 0 0.5em;
+		text-align: right;
+		padding-right: 20px;
+
+	}
+
+	#titleBar {
+		background: #fff;
+		text-align: center;
+		padding-top: 13px;
+		height: 54px !important;
+		background-image: url(../img/logo-small.jpg);
+		background-position: 70px 10px;
+		background-repeat: no-repeat;
+		font-size: 20px;
+		padding-bottom: 15px;
+		line-height: 54px;
+		color: #000;
 	}
