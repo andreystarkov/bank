@@ -1,0 +1,62 @@
+
+	.header { display: none; width: 100%;}
+	.block-info .item .text i { font-size: 18px; margin-top: 10px;}
+	#slider-main { width: 320px; }
+	.box { width: 320px; }
+	#slider-main .carousel-inner { width: 320px; }
+	#slider-main .carousel-inner .item img { width: 320px; }
+	.block-content { margin-top: 0 }
+	body { padding-top: 50px; }
+	#header {
+		margin-top: 4.5em;
+		text-align: center;
+	}
+	.features { padding-bottom: 30px;}
+	.block-info { margin: 40px auto;}
+	.center-box { width: 100%;}
+	.middle-wrapper { height: 200px; padding-top: 20px;}
+	.mobile-only { display: block; opacity:1; }
+
+	.carousel-control.left {
+	  background: url(../img/slider-left.png) left 43% no-repeat;
+	  left: 5px;
+	}
+
+	.carousel-control.right {
+	  right: 5px;
+	  background: url(../img/slider-right.png) right 43% no-repeat;
+	  left: auto;
+	}
+
+	#leftPanelButton .toggle,
+	#rightPanelButton .toggle {
+		display: block;
+		background: none;
+		height: 44px;
+		line-height: 44px;
+	}
+
+	#leftPanelButton .toggle {
+		text-align: left;
+		padding-left: 20px;
+				padding-top: 5px;
+	}
+
+	#rightPanelButton .toggle {
+		text-align: right;
+		padding-right: 20px;
+
+	}
+
+	#titleBar {
+		background: #fff;
+		text-align: center;
+		padding-top: 13px;
+		background-image: url(../img/logo-small.jpg);
+		background-position: 70px 10px;
+		background-repeat: no-repeat;
+		font-size: 20px;
+		padding-bottom: 5px;
+		line-height: 44px;
+		color: #000;
+	}

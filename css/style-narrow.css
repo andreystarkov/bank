@@ -1,0 +1,51 @@
+
+    .responsive-grid { width: 660px !important; }
+
+    .middle-wrapper { background-image: none !important; }
+
+	#header {
+		position: relative;
+		margin-top: 2em;
+	}
+
+    .block-info {
+    position: relative;
+    text-align: left;
+    text-align: left;
+    }
+
+	.header { display: none;  width: 100%;}
+	.box { width: 100%; }
+	#slider-main { width: 660px; }
+	#slider-main .carousel-inner { width: 660px; }
+	#slider-main .carousel-inner .item img { width: 660px; }
+	.features { padding-bottom: 30px; }
+	.center-box { width: 100%;}
+
+	.middle-wrapper { height: 300px;}
+	.block-info { text-align: center; margin: 0 auto; width: 780px; }
+    .block-info .item { text-align: left; 	}
+    .block-info .item .text p { font-size: 16px; line-height: 16px; width: 80%;}
+    .block-info .item .text i { font-size: 18px; }
+    .block-info .item .icon { display: block; margin-left: 80px; }
+
+
+	#leftPanelButton .toggle,
+	#rightPanelButton .toggle {
+		display: block;
+		background: rgba(71,86,91,0.9);
+		text-align: center;
+		width: 80px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 1.25em;
+		color: #fff;
+	}
+
+	#leftPanelButton .toggle {
+		border-radius: 0 0 0.5em 0;
+	}
+
+	#rightPanelButton .toggle {
+		border-radius: 0 0 0 0.5em;
+	}
