@@ -2,7 +2,8 @@
 	.header { display: none; width: 100%;}
 	.block-info .item .text i { font-size: 18px; margin-top: 10px;}
 	#slider-main { width: 320px; }
-	.box { width: 320px; }
+	.box, .box-content, .breadcrumb { width: 320px !important; }
+	.box-content { padding-left: 0px; }
 	#slider-main .carousel-inner { width: 320px; }
 	#slider-main .carousel-inner .item img { width: 320px; }
 	.block-content { margin-top: 0 }

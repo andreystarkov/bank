@@ -2,9 +2,10 @@
 		padding-top: 50px;
 	}
     .responsive-grid { width: 660px !important; }
-
+    .box-content { width: 90% !important;}
+    .box-content { padding-left: 20px;}
     .middle-wrapper { background-image: none !important; }
-
+    .breadcrumb { width: 90% !important;}
 	#header {
 		position: relative;
 		margin-top: 2em;
@@ -32,7 +33,7 @@
     .block-info .item .icon { display: block; margin-left: 80px; }
 
 
-
+    .pagination { margin: 0 auto;}
 	#leftPanelButton .toggle,
 	#rightPanelButton .toggle {
 		display: block;
