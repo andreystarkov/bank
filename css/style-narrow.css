@@ -1,16 +1,19 @@
 	body {
 		padding-top: 50px;
 	}
+
     .responsive-grid { width: 660px !important; }
     .box-content { width: 90% !important;}
     .box-content { padding-left: 20px;}
     .middle-wrapper { background-image: none !important; }
     .breadcrumb { width: 90% !important;}
+
 	#header {
 		position: relative;
 		margin-top: 2em;
 	}
 
+    .carousel-control i { display:block; }
     .block-info {
     position: relative;
     text-align: left;
@@ -31,7 +34,6 @@
     .block-info .item .text p { font-size: 16px; line-height: 16px; width: 80%;}
     .block-info .item .text i { font-size: 18px; }
     .block-info .item .icon { display: block; margin-left: 80px; }
-
 
     .pagination { margin: 0 auto;}
 	#leftPanelButton .toggle,
