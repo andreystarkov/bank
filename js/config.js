@@ -1,6 +1,6 @@
 
 	window._skel_config = {
-		prefix: 'css/style',
+		prefix: 'css/responsive/style',
 		preloadStyleSheets: true,
 		resetCSS: false,
 		boxModel: 'border',
