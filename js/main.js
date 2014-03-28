@@ -1,5 +1,7 @@
 
+
     $(function () {
+
         var $container = $('.responsive-grid');
         $container.packery({
           itemSelector: '.item',

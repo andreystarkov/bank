@@ -1,0 +1,8 @@
+#features { height: 144px !important; max-height: 144px !important;}
+#box-content { width: auto !important; max-height: 1200px !important; min-width: 1200px !important}
+#top-nav {
+    min-height:50px;
+
+  height:auto !important;
+
+  height:50px;}

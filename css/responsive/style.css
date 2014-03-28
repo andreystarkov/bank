@@ -1,0 +1,27 @@
+
+	#leftPanel,
+	#rightPanel,
+	#bottomPanel {
+		background: #445358;
+		padding: 1.25em;
+	}
+
+	#leftPanel a,
+	#rightPanel a {
+		display: block;
+		color: #fff;
+		border-top: solid 1px #546368;
+		line-height: 2.5em;
+	}
+
+	#leftPanel li:first-child > a,
+	#rightPanel li:first-child > a {
+		border-top: 0;
+	}
+
+	#bottomPanel form {
+		width: 100%;
+		max-width: 640px;
+		margin: 0 auto;
+		text-align: center;
+	}
