@@ -13,7 +13,7 @@
     .middle-wrapper {background-image: none !important;}
 
     .breadcrumb {width: 90% !important;}
-
+    .carousel-control i, .carousel-control { opacity: 0 !important;}
     #header {
         position: relative;
         margin-top: 2em;
@@ -96,6 +96,10 @@
         line-height: 44px;
      }
 
+     .left-nav a.active i {
+        font-size:13px !important;
+        color: rgba(255,255,255,0.3);
+     }
     #leftPanelButton .toggle {
         text-align: left;
         padding-left: 20px;

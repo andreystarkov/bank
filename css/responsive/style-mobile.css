@@ -3,7 +3,7 @@
         im@andreystarkov.ru
     */
 
-    body {padding-top: 50px;}
+    body { padding-top: 50px; }
 
     .header {
         display: none;
@@ -15,9 +15,9 @@
         margin-top: 10px;
      }
 
-    #slider-main {width: 320px;}
+    #slider-main { margin-top: 20px; width: 320px;}
 
-    .box, .box-content, .breadcrumb {width: 320px !important;}
+    .box, .box-content, .breadcrumb { width: 320px !important; }
     .box-content {
         padding-left: 6%;
         width: 100%;
@@ -69,7 +69,7 @@
         display: block;
         opacity: 1;
      }
-
+     .carousel-control i, .carousel-control { opacity: 0 !important;}
     .carousel-control.left {
         background: url(../../img/slider-left.png) left 43% no-repeat;
         left: 5px;

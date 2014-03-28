@@ -11,7 +11,7 @@
 	.header { display: none; width: 100%;}
 
 	.mobile-only { display: block; opacity:1; }
-
+	.carousel-control i, .carousel-control { opacity: 0 !important;}
 	#title {
 		text-align: center;
 		margin: 0 0 1em 0;
