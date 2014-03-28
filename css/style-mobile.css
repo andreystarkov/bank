@@ -13,6 +13,8 @@
 		margin-top: 4.5em;
 		text-align: center;
 	}
+    .news-detail b { margin-bottom: 10px; display: block; margin-top: 5px; }
+    .news-detail img { float: none; margin-top: 15px; margin-bottom: 15px;}
 	.features { padding-bottom: 30px;}
 	.block-info { margin: 40px auto;}
 	.center-box { width: 100%;}

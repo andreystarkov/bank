@@ -1,4 +1,6 @@
-    @import "http://webfonts.ru/import/ubuntu.css";
+
+    // @import "http://webfonts.ru/import/ubuntu.css";
+    @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic&subset=latin,cyrillic);
 
     @color-orange: #ff7e00;
     @color-red: #ed1f24;
@@ -6,44 +8,11 @@
     @color-blue: #1192c2;
     @color-hover: #86ca24;
     @color-gray: #4c4c4c;
+    @color-lightgray: #c3c3c3;
 
     @import "less/home.less";
     @import "less/forms.less";
     @import "less/news.less";
+    @import "less/license.less";
     @import "less/common.less";
     @import "less/responsive.less";
-
-    .license-item {
-        position: relative;
-        width: 250px;
-        float: left;
-        display: block;
-        padding: 10px;
-        margin-right:40px;
-        margin-top: 40px;
-        text-align: center;
-        border: 1px solid @color-blue;
-        border-radius: 15px;
-        &:first-child {
-            margin-right: 0px;
-        }
-        .description  {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background:rgba(255,255,255,0.8);
-            display:block;
-            padding-top: 35%;
-            vertical-align: middle;
-            text-align: center;
-            opacity:0;
-            p {
-                font-size: 18px;
-                color: @color-blue;
-                width: 80%;
-                margin: 0 auto;
-            }
-        }
-    }
