@@ -20,6 +20,30 @@
     text-align: left;
     }
 
+    .item-icon {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #box-callback { padding-left: 30px;}
+    #box-callback .form-callback {
+        width: 100%;
+    }
+    #box-callback .form-info .btn-send { margin-top: 20px;}
+    #box-callback .form-info {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top:auto;
+        left:auto;
+        display: block;
+        width: 90%;
+        margin-top: 20px;
+    }
+    .item-icon a {
+        width:75%;
+    }
+
 	.header { display: none;  width: 100%;}
 	.box { width: 100%; }
 	#slider-main { width: 660px; }
@@ -36,6 +60,7 @@
     .block-info .item .icon { display: block; margin-left: 80px; }
 
     .pagination { margin: 0 auto;}
+
 	#leftPanelButton .toggle,
 	#rightPanelButton .toggle {
 		display: block;

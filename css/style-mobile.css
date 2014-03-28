@@ -3,7 +3,8 @@
 	.block-info .item .text i { font-size: 18px; margin-top: 10px;}
 	#slider-main { width: 320px; }
 	.box, .box-content, .breadcrumb { width: 320px !important; }
-	.box-content { padding-left: 0px; }
+	.box-content { padding-left: 6%; width: 100%; }
+	.content-block { width: 100%; }
 	#slider-main .carousel-inner { width: 320px; }
 	#slider-main .carousel-inner .item img { width: 320px; }
 	.block-content { margin-top: 0 }
@@ -22,6 +23,51 @@
 	  background: url(../img/slider-left.png) left 43% no-repeat;
 	  left: 5px;
 	}
+
+    #box-callback { padding-left: 30px;}
+    #box-callback .form-callback {
+        width: 100%;
+    }
+    #box-callback .form-callback label {
+    	font-size:14px;
+    }
+    #box-callback .form-info .btn-send { margin-top: 20px;}
+
+    #box-callback .form-info {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top:auto;
+        left:auto;
+        display: block;
+        width: 90%;
+        margin-top: 20px;
+    }
+    .item-icon a {
+        width:75%;
+    }
+
+    .item-icon {
+    	text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .item-icon img {
+        margin: 0 auto;
+        float: none;
+    }
+    .item-icon a {
+    	margin-top:10px;
+        width:100%;
+    }
+
+    .item-icon a p {
+    	padding-top:5px;
+    	display: block;
+    	width: 80%;
+    	margin: 0 auto;
+    }
 
 	.carousel-control.right {
 	  right: 5px;

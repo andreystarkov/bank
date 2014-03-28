@@ -10,17 +10,17 @@
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet/less" type="text/css" href="css/main.less" />
         <link rel="icon" type="image/png" href="img/favicon.png" />
 
         <script src="js/jquery.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/packery.pkgd.min.js"></script>
-        <script src="js/config.js"></script>
+        <script src="js/config-leftpanel.js"></script>
         <script src="js/skel.min.js"></script>
         <script src="js/skel-panels.min.js"></script>
+        <script src="js/main.js"></script>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
@@ -33,6 +33,13 @@
             </style>
             <link rel="stylesheet" href="css/ie-fix.css">
         <![endif]-->
+
+        <script src="js/vendor/less-1.7.0.min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+          less.env = "development";
+          less.watch();
+        </script>
+
   </head>
 	<body>
 
@@ -70,7 +77,6 @@
             <a class="left carousel-control" href="#slider-main" data-slide="prev"><i class="fa fa-angle-left mobile-only"></i></a>
             <a class="right carousel-control" href="#slider-main" data-slide="next"><i class="fa fa-angle-right mobile-only"></i></a>
         </div>
-
       </div>
     </div>
 

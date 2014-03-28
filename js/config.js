@@ -19,7 +19,7 @@
 				breakpoints: 'mobile,narrower,narrow',
 				position: 'left',
 				size: 250,
-				html: '<div data-action="moveCell" data-args="top-nav,content-block,top-links"></div>'
+				html: '<div data-action="moveCell" data-args="top-nav,top-links"></div>'
 			}
 		},
 		overlays: {
@@ -40,16 +40,16 @@
 		}
 	};
 
-	$(function () {
-		var $container = $('.responsive-grid');
-		$container.packery({
-		  itemSelector: '.item',
-		  gutter: 0
-		});
+	    $(function () {
+        var $container = $('.responsive-grid');
+        $container.packery({
+          itemSelector: '.item',
+          gutter: 0
+        });
 
-		$('.left-nav a').each(function(){
-			if( $(this).hasClass('active') ){
-				$(this).append('<i class="fa fa-chevron-right"></i>');
-			}
-		});
-	});
+        $('.left-nav a').each(function(){
+            if( $(this).hasClass('active') ){
+                $(this).append('<i class="fa fa-chevron-right"></i>');
+            }
+        });
+    });
