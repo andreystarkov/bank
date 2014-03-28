@@ -222,6 +222,11 @@
   font-size: 18px;
   font-weight: 500;
 }
+.form-callback select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url("../img/arrow-down.png") no-repeat 98% center;
+}
 .form-callback input,
 .form-callback select,
 .form-callback option,
@@ -309,6 +314,7 @@
   padding: 10px;
   margin-right: 40px;
   margin-top: 40px;
+  overflow: hidden;
   text-align: center;
   border: 1px solid #1192c2;
   border-radius: 15px;
@@ -330,7 +336,7 @@
   opacity: 0;
 }
 .license-item .description p {
-  font-size: 18px;
+  font-size: 18px !important;
   color: #1192c2;
   width: 80%;
   margin: 0 auto;

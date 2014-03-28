@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
         <meta charset="utf-8">
@@ -17,22 +17,33 @@
 
         <script src="js/vendor/jquery.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/vendor/packery.pkgd.min.js"></script>
-        <script src="js/config-home.js"></script>
-        <script src="js/vendor/skel.min.js"></script>
-        <script src="js/vendor/skel-panels.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <!--[if !IE 7]><!-->
+          <script src="js/vendor/packery.pkgd.min.js"></script>
+          <script src="js/config-home.js"></script>
+          <script src="js/vendor/skel.min.js"></script>
+          <script src="js/vendor/skel-panels.min.js"></script>
+          <script src="js/main.js"></script>
+        <!--<![endif]-->
+
+        <!--[if IE 7]>
+          <link rel="stylesheet" type="text/css" href="css/ie7-fix.css">
+        <![endif]-->
+
+        <!--[if IE 8]>
+          <style type="text/css">
+            * { behavior: url(css/pie.htc); }
+          </style>
+        <![endif]-->
 
         <!--[if lte IE 8]>
             <script src="js/vendor/ie-bootstrap-carousel.min.js"></script>
             <script src="js/vendor/html5shiv.js" type="text/javascript"></script>
-            <script src="js/vendor/pie.js" type="text/javascript"></script>
-            <style type="text/css">
-              * { behavior: url(css/pie.htc); }
-            </style>
             <link rel="stylesheet" href="css/ie-fix.css">
         <![endif]-->
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
   </head>
 	<body>
 
@@ -73,7 +84,7 @@
       </div>
     </div>
 
-    <div class="box features responsive-grid" id="features" >
+    <div class="box features responsive-grid" id="features">
       <a class="item" href="#">
         <img src="img/icons/1.png">
         <p>Брокерские и депозитарные услуги.</p>
@@ -102,7 +113,7 @@
       </div>
     </div>
 
-    <div class="box responsive-grid grid-290">
+    <div class="box responsive-grid grid-290" id="home-grid">
       <div class="item news-last">
           <p class="date">17.07.2013</p>
           <p class="head">Юрию Самойлову присвоено Муниципальное почётное звание «Заслуженный финансист г. Оренбурга».</p>
