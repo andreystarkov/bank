@@ -1,3 +1,5 @@
+/* omg bullshit */
+
 #features { height: 144px !important; max-height: 144px !important;}
 #box-content { width: auto !important; max-width: 1200px !important; min-width: 1200px !important}
 #top-nav { min-height:35px; height:auto !important; height:35px; }
@@ -5,15 +7,7 @@
 #middle-wrapper { background-image: none !important;}
 #features .item { width: auto !important; max-width: 250px !important; min-width: 250px !important }
 #home-grid .item { width: auto !important; margin-right:0 !important; margin-left:0 !important; max-width: 210px !important; min-width: 210px !important }
-.responsive-grid:after {
-    visibility: hidden;
-    display: block;
-    content: "";
-    clear: both;
-    height: 0;
-    }
-
-
-.responsive-grid  {   overflow: hidden !important; }
-* html .responsive-grid             { zoom: 1; overflow: hidden !important; } /* IE6 */
-*:first-child+html .responsive-grid { zoom: 1; overflow: hidden !important;} /* IE7 */
+.responsive-grid:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+.responsive-grid  { overflow: hidden !important; }
+* html .responsive-grid { zoom: 1; overflow: hidden !important; }
+*:first-child+html .responsive-grid { zoom: 1; overflow: hidden !important;}

@@ -1,4 +1,20 @@
+    a { outline: none;
 
+
+    }
+    a:focus {
+        outline: none !important;
+    }
+    .active {
+        outline: none;
+    }
+    a.active {
+        outline: none;
+    }
+
+    a:hover {
+        outline: none;
+    }
      #slider-main {
         width: 1064px;
         margin: 0 auto;
@@ -138,10 +154,18 @@
         padding-right: 45px;
     }
 
+    .footer-wrapper {
+        margin-top: 25px;
+
+        border-top: 1px solid @color-lightgray;
+        width: 100%;
+    }
     .footer-row {
-        margin-top: 50px;
+        width: 100%;
         zoom: 1;
         .item {
+            padding-top: 45px;
+            min-height: 210px;
             width: 290px;
             position: relative;
             float: left;
@@ -154,8 +178,70 @@
                 line-height: 15px;
                 font-style: italic;
             }
+            border-right: 1px solid @color-lightgray;
+            &:first-child {
+                border-left: 1px solid @color-lightgray;
+                border-right: 1px solid @color-lightgray;
+            }
+        }
+        .webiq {
+            span { position: absolute;
+                   bottom: 0px; right: 45px;
+                   width: 100%; text-align: right;
+                   font-style:italic;
+                   a {
+
+                    text-decoration: none;
+                    color: #ec008c;
+                   }
+               }
         }
     }
+
+    #home-grid { margin-top: 25px; }
+
+    .block-info {
+        position: relative;
+        text-align: left;
+        margin: 0 auto;
+        background: url(../img/border.png) left bottom no-repeat;
+
+        .item {
+            padding: 40px 45px;
+            display: block;
+            img {
+                float: left;
+                margin-right: 40px;
+            }
+            .icon {
+                width: 80px;
+                height: 80px;
+                float: left;
+                display: block;
+            }
+            .text {
+                p {
+                    width: 90%;
+                    display: block;
+                    font-size: 22px;
+                    line-height: 25px;
+                    color: @color-gray;
+                    font-weight: 300;
+                }
+                i {
+                    width: 90%;
+                    line-height: 25px;
+                    font-weight: 300;
+                    margin-top: -10px;
+                    display: block;
+                    color: #bd4832;
+                    font-size: 24px;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
 
     .curr {
         .head {

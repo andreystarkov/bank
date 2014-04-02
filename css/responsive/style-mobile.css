@@ -9,7 +9,12 @@
         display: none;
         width: 100%;
      }
+    .footer-row .item { border-right: 0px; }
 
+    .footer-row .item:first-child {
+          border-right: 0px;
+          border-left: 0px;
+     }
     .block-info .item .text i {
         font-size: 18px;
         margin-top: 10px;
